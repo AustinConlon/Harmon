@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7C7C3A25987AF300693817 /* HarmonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C7C3925987AF200693817 /* HarmonApp.swift */; };
+		FB7C7C3C25987AF300693817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C7C3B25987AF300693817 /* ContentView.swift */; };
+		FB7C7C3E25987AF300693817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7C7C3D25987AF300693817 /* Assets.xcassets */; };
+		FB7C7C4125987AF300693817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7C7C4025987AF300693817 /* Preview Assets.xcassets */; };
+		FB7C7C4C25987AF300693817 /* HarmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C7C4B25987AF300693817 /* HarmonTests.swift */; };
+		FB7C7C5725987AF300693817 /* HarmonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C7C5625987AF300693817 /* HarmonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7C7C4825987AF300693817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7C7C2E25987AF200693817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7C7C3525987AF200693817;
+			remoteInfo = Harmon;
+		};
+		FB7C7C5325987AF300693817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7C7C2E25987AF200693817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7C7C3525987AF200693817;
+			remoteInfo = Harmon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7C7C3625987AF200693817 /* Harmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7C7C3925987AF200693817 /* HarmonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonApp.swift; sourceTree = "<group>"; };
+		FB7C7C3B25987AF300693817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB7C7C3D25987AF300693817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7C7C4025987AF300693817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB7C7C4225987AF300693817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7C7C4725987AF300693817 /* HarmonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7C7C4B25987AF300693817 /* HarmonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonTests.swift; sourceTree = "<group>"; };
+		FB7C7C4D25987AF300693817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7C7C5225987AF300693817 /* HarmonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7C7C5625987AF300693817 /* HarmonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonUITests.swift; sourceTree = "<group>"; };
+		FB7C7C5825987AF300693817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7C7C3325987AF200693817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7C7C4425987AF300693817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7C7C4F25987AF300693817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7C7C2D25987AF200693817 = {
+			isa = PBXGroup;
+			children = (
+				FB7C7C3825987AF200693817 /* Harmon */,
+				FB7C7C4A25987AF300693817 /* HarmonTests */,
+				FB7C7C5525987AF300693817 /* HarmonUITests */,
+				FB7C7C3725987AF200693817 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7C7C3725987AF200693817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C7C3625987AF200693817 /* Harmon.app */,
+				FB7C7C4725987AF300693817 /* HarmonTests.xctest */,
+				FB7C7C5225987AF300693817 /* HarmonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7C7C3825987AF200693817 /* Harmon */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C7C3925987AF200693817 /* HarmonApp.swift */,
+				FB7C7C3B25987AF300693817 /* ContentView.swift */,
+				FB7C7C3D25987AF300693817 /* Assets.xcassets */,
+				FB7C7C4225987AF300693817 /* Info.plist */,
+				FB7C7C3F25987AF300693817 /* Preview Content */,
+			);
+			path = Harmon;
+			sourceTree = "<group>";
+		};
+		FB7C7C3F25987AF300693817 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C7C4025987AF300693817 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB7C7C4A25987AF300693817 /* HarmonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C7C4B25987AF300693817 /* HarmonTests.swift */,
+				FB7C7C4D25987AF300693817 /* Info.plist */,
+			);
+			path = HarmonTests;
+			sourceTree = "<group>";
+		};
+		FB7C7C5525987AF300693817 /* HarmonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C7C5625987AF300693817 /* HarmonUITests.swift */,
+				FB7C7C5825987AF300693817 /* Info.plist */,
+			);
+			path = HarmonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7C7C3525987AF200693817 /* Harmon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7C7C5B25987AF300693817 /* Build configuration list for PBXNativeTarget "Harmon" */;
+			buildPhases = (
+				FB7C7C3225987AF200693817 /* Sources */,
+				FB7C7C3325987AF200693817 /* Frameworks */,
+				FB7C7C3425987AF200693817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmon;
+			productName = Harmon;
+			productReference = FB7C7C3625987AF200693817 /* Harmon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7C7C4625987AF300693817 /* HarmonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7C7C5E25987AF300693817 /* Build configuration list for PBXNativeTarget "HarmonTests" */;
+			buildPhases = (
+				FB7C7C4325987AF300693817 /* Sources */,
+				FB7C7C4425987AF300693817 /* Frameworks */,
+				FB7C7C4525987AF300693817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7C7C4925987AF300693817 /* PBXTargetDependency */,
+			);
+			name = HarmonTests;
+			productName = HarmonTests;
+			productReference = FB7C7C4725987AF300693817 /* HarmonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB7C7C5125987AF300693817 /* HarmonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7C7C6125987AF300693817 /* Build configuration list for PBXNativeTarget "HarmonUITests" */;
+			buildPhases = (
+				FB7C7C4E25987AF300693817 /* Sources */,
+				FB7C7C4F25987AF300693817 /* Frameworks */,
+				FB7C7C5025987AF300693817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7C7C5425987AF300693817 /* PBXTargetDependency */,
+			);
+			name = HarmonUITests;
+			productName = HarmonUITests;
+			productReference = FB7C7C5225987AF300693817 /* HarmonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7C7C2E25987AF200693817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FB7C7C3525987AF200693817 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FB7C7C4625987AF300693817 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FB7C7C3525987AF200693817;
+					};
+					FB7C7C5125987AF300693817 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FB7C7C3525987AF200693817;
+					};
+				};
+			};
+			buildConfigurationList = FB7C7C3125987AF200693817 /* Build configuration list for PBXProject "Harmon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7C7C2D25987AF200693817;
+			productRefGroup = FB7C7C3725987AF200693817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7C7C3525987AF200693817 /* Harmon */,
+				FB7C7C4625987AF300693817 /* HarmonTests */,
+				FB7C7C5125987AF300693817 /* HarmonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7C7C3425987AF200693817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7C7C4125987AF300693817 /* Preview Assets.xcassets in Resources */,
+				FB7C7C3E25987AF300693817 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7C7C4525987AF300693817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7C7C5025987AF300693817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7C7C3225987AF200693817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7C7C3C25987AF300693817 /* ContentView.swift in Sources */,
+				FB7C7C3A25987AF300693817 /* HarmonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7C7C4325987AF300693817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7C7C4C25987AF300693817 /* HarmonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7C7C4E25987AF300693817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7C7C5725987AF300693817 /* HarmonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7C7C4925987AF300693817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7C7C3525987AF200693817 /* Harmon */;
+			targetProxy = FB7C7C4825987AF300693817 /* PBXContainerItemProxy */;
+		};
+		FB7C7C5425987AF300693817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7C7C3525987AF200693817 /* Harmon */;
+			targetProxy = FB7C7C5325987AF300693817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB7C7C5925987AF300693817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB7C7C5A25987AF300693817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7C7C5C25987AF300693817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmon/Preview Content\"";
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Harmon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Harmon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB7C7C5D25987AF300693817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmon/Preview Content\"";
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Harmon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Harmon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB7C7C5F25987AF300693817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				INFOPLIST_FILE = HarmonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.HarmonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmon.app/Harmon";
+			};
+			name = Debug;
+		};
+		FB7C7C6025987AF300693817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				INFOPLIST_FILE = HarmonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.HarmonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmon.app/Harmon";
+			};
+			name = Release;
+		};
+		FB7C7C6225987AF300693817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				INFOPLIST_FILE = HarmonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.HarmonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harmon;
+			};
+			name = Debug;
+		};
+		FB7C7C6325987AF300693817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				INFOPLIST_FILE = HarmonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.HarmonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harmon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7C7C3125987AF200693817 /* Build configuration list for PBXProject "Harmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7C7C5925987AF300693817 /* Debug */,
+				FB7C7C5A25987AF300693817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7C7C5B25987AF300693817 /* Build configuration list for PBXNativeTarget "Harmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7C7C5C25987AF300693817 /* Debug */,
+				FB7C7C5D25987AF300693817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7C7C5E25987AF300693817 /* Build configuration list for PBXNativeTarget "HarmonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7C7C5F25987AF300693817 /* Debug */,
+				FB7C7C6025987AF300693817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7C7C6125987AF300693817 /* Build configuration list for PBXNativeTarget "HarmonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7C7C6225987AF300693817 /* Debug */,
+				FB7C7C6325987AF300693817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7C7C2E25987AF200693817 /* Project object */;
+}
